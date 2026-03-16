@@ -1,0 +1,150 @@
+.category{
+       display: flex;
+       width: 100vw;
+      }
+      .religon{
+        background-color:burlywood;
+        width: 20vw;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 10px;
+        height: auto;
+      }
+      .politics{
+        background-color: burlywood;
+        width: 20vw;
+        padding: 15px;
+        border-radius: 5px;
+        border-top: 10px solid white;
+        height: auto;
+        margin: 10px;
+      }
+      .relationships{
+        background-color:burlywood;
+        width: 20vw;
+        padding: 15px;
+        border-radius: 5px;
+        border-top: 10px solid white; 
+        height: auto;
+        margin: 10px;
+      }
+      .education{
+        background-color:burlywood;
+        width: 20vw;
+        padding: 15px;
+        border-radius: 5px;
+        border-top: 10px solid white; 
+        height: auto;
+        margin: 10px;
+      }
+      .religon img{
+        width: 20vw;
+        border-radius:5%;
+      }
+      .politics img{
+        width: 15vh;
+        border-radius:5%;
+      }
+     .relationships img{
+        width: 18vh;
+        height: 15vh;
+        border-radius:5%
+    }
+    .education img{
+        height: 15vh;
+        width: 18vh;
+    }
+     *{
+    padding: 0;
+    margin: 0;
+     }
+      .header{
+        display: flex;
+        background: rgb(227, 210, 210);
+        width: 100vw;
+        justify-content:space-between;
+        height: 10vh;
+      }
+      .logo{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-left:10px;
+      }
+      .logo>img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+
+      }
+      ul{
+        display: flex;
+        gap:10px;
+        align-items: center;
+        justify-content: center;
+      }
+      li{
+        list-style: none;
+      }
+      a{
+        text-decoration: none;
+        color:burlywood;
+        font-size: 1rem;
+        margin: 10px;
+      }
+      a:hover{
+       background-color: darkgreen;
+       color: wheat;
+       padding: 5px;
+       border-radius: 5px;
+       border-bottom: 5px solid wheat;
+      
+      }
+      button{
+        background-color: green;
+        color: rgb(6, 0, 4);
+        border: none;
+        border-radius: 10px;
+        padding: 4px;
+        color: white;
+      }
+      .button{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: space-around;
+        margin-right: 10px;
+      }
+      button:hover{
+        background-color: white;
+        color: green;
+        padding: 6px;
+      }
+      .contianer{
+       background-image: url("../image/download\ \(1\).webp");
+       background-color: #0e0e0e;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position:center;
+      }
+      .hero{
+        width: 100vh;
+        height:800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: space-between`;
+      }
+      h1{
+      color: white;
+      text-transform: capitalize;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-left: 100px;
+      }
+      p{ 
+        color: #05f220;
+        margin-left: 100px;
+      }
+      
